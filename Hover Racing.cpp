@@ -11,8 +11,10 @@ void main()
 
 	// Add default folder for meshes and other media
 	myEngine->AddMediaFolder( "C:\\ProgramData\\TL-Engine\\Media" );
+	myEngine->AddMediaFolder("./media");
 
-	/**** Set up your scene here ****/
+	IMesh* skyboxMesh = myEngine->LoadMesh("Skybox 07.x");
+	IModel* skybox = skyboxMesh->CreateModel(0, -960, 0);
 
 
 	// The main game loop, repeat until engine is stopped

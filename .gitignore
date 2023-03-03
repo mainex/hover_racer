@@ -1,5 +1,3 @@
-.vs/
-Hover\ Racing.sln
-Hover\ Racing.vcxproj
-Hover\ Racing.vcxproj.user
-TL-Template.vcxproj.filters
+*.*
+!Hover Racing.cpp
+!README.md
